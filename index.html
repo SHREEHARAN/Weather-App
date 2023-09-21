@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Forecast</h1>
+    </header>
+
+    <main>
+        <section id="location">
+            <h2>Current Location: <span id="city">City Name</span></h2>
+        </section>
+
+        <section id="weather">
+            <h2>Current Weather</h2>
+            <p>Temperature: <span id="temperature">Loading...</span></p>
+            <p>Conditions: <span id="conditions">Loading...</span></p>
+            <p>Humidity: <span id="humidity">Loading...</span></p>
+            <p>Wind: <span id="wind">Loading...</span></p>
+        </section>
+
+        <section id="user-input">
+            <h2>Enter City Name</h2>
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="get-weather">Get Weather</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Weather Forecast</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
